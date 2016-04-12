@@ -1,0 +1,13 @@
+Matlab scripts that generate examples from paper "A Simple Effective
+Heuristic for Embedded Mixed-Integer Quadratic Programming" by 
+Reza takapoui, Nicholas Moehle, Stephen Boyd, and Alberto Bemporad,
+available at www.stanford.edu/~boyd/papers/miqp_admm.html.
+In order to compare the results of our heuristic to the global
+solver Gurobi, CVX package (www.stanford.edu/~boyd/cvx/) and a 
+separate installation of Gurobi (http://www.gurobi.com/) is required.
+
+solver_miqp_admm.m  -- the solver used in all examples. See comment headers.
+syn.m -- randomly generated problems (synthetic data).
+vehicle.m  -- hybrid vehicle control example. (Requires vehicle_data.m in the same directory.)
+converter.m -- power converter control. (Requires converter_data.m in the same directory.)
+comms.m -- signal decoding example. 
