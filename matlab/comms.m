@@ -105,5 +105,6 @@ end
 %%%%%%%%%%%%%%%%%%%
 subplot(211)
 hist(diff_val)
+
 subplot(212)
 hist(diff_err)
