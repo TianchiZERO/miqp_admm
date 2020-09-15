@@ -1,4 +1,4 @@
-% Communication example.
+% Communication example.aaa
 
 close all
 
